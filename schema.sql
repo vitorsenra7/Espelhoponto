@@ -1,6 +1,0 @@
-CREATE TABLE IF NOT EXISTS kv (
-  ns TEXT NOT NULL,
-  k  TEXT NOT NULL,
-  v  TEXT NOT NULL,
-  PRIMARY KEY (ns, k)
-);
